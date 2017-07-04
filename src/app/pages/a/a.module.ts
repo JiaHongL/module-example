@@ -1,3 +1,4 @@
+import { CardModule } from './../../card/card.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { routing } from "app/pages/a/a.routing";
@@ -10,7 +11,8 @@ import { Shared2Module } from "app/shared2/shared2.module";
     CommonModule,
     routing,
     SharedModule,
-    Shared2Module
+    Shared2Module,
+    CardModule
   ],
   declarations: [ContentComponent]
 })
